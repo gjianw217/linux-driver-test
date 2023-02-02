@@ -1,0 +1,7 @@
+1.测试接受
+ 将串口ttyS1接受到的数据保存在1.log文件里
+./uart_text /dev/ttyS1 115200 8 n 1 1.log receive
+
+2.测试发送
+将文件1.log内容发送到串口ttyS1上
+./uart_text /dev/ttyS1 115200 8 n 1 1.log send 
