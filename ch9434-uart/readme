@@ -1,0 +1,4 @@
+1 gcc shell-uart.c -o test
+
+2  shell-uart.sh /dev/ttyWCHx 115200
+
